@@ -1,0 +1,3 @@
+POST    /twit                  rest.controllers.TweetController.create
+
+GET     /health                rest.controllers.HealthController.health
