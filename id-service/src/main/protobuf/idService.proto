@@ -1,0 +1,18 @@
+//#service-request-reply
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "com.github.faolivera.idservice";
+
+
+service IdService {
+    rpc GetId (IdRequest) returns (IdReply) {}
+}
+
+message IdRequest {
+
+}
+
+message IdReply {
+    uint64 id = 1;
+}

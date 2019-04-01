@@ -15,7 +15,7 @@ inConfig(Docker)(
     daemonUser := "root",
     maintainer := "Facundo Olivera <>",
     version := s"${version.value}-$getDockerVersion",
-    packageName := "eu.gcr.io/hypnotic-epoch-235613/tweet-collect"
+    packageName := "eu.gcr.io/hypnotic-epoch-235613/" + name.value
   )
 )
 

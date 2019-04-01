@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: collect-api
-        image: 248083338102.dkr.ecr.eu-west-1.amazonaws.com/tweet-collect:1.0-1d7962e
+        image: eu.gcr.io/hypnotic-epoch-235613/twitter-collect:1.0-1d7962e
         ports:
         - containerPort: 9000
         env:

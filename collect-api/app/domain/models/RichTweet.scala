@@ -5,6 +5,6 @@ import rest.models.Tweet
 
 case class RichTweet(id: Long,
                      userId: String,
-                     twit: Tweet,
+                     tweet: Tweet,
                      createdAt: Instant,
                      clientIp: String)
